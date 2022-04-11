@@ -1,0 +1,176 @@
+/* propsal styling */
+.proposal-body{
+    background-color: #EBEBF2;
+    margin: auto;
+    max-width:70%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.proposal-header{
+    font-size:30px;
+    text-align:center;
+    padding:20px;
+}
+.proposal-section{
+    font-size:20px;
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+ /* main page  */
+
+ .jumbotron{
+    background-image: url('../img/jumbotron.jpeg');
+    background-size: cover;
+    border-radius: 0%
+    
+}
+
+/* husky kudos text */
+.jumbotron .container h1 {
+    font-family: "Encode Sans Compressed", sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    color: #FFF;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+    font-size: 40px;
+
+}
+
+/* top uw banner */
+.header{
+    background-color: #4B2E83;
+}
+
+.header img{
+    max-width: 50%;
+}
+.nav-flex-container {
+    display: flex;
+}
+
+form label {
+    margin-top: 50px;
+    color: #4b2e83;
+    font-weight: 900;
+    font-size:  25px;
+}
+
+.nav-button span a {
+    padding: 10px 40px 10px 60px;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: "Encode Sans Compressed",sans-serif;
+    transform: skew(-15deg, 0);
+    text-transform: uppercase;
+    color: #FFF;
+    display: inline-block;
+    border: 3px solid #FFF;
+    flex: 1;
+    margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+    .nav-button span a {
+        font-size: 12px;
+    }
+}
+
+/* filter by*/
+.filter p{
+    font-weight: 900;
+    color: #4b2e83;
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+@media (min-width: 992px) {
+    .filter button{
+        display: inline;
+    }
+}
+
+@media (max-width: 992px) {
+    .filter button{
+        display:inline-block;
+    }
+}
+
+@media (max-width: 576px) {
+    .filter button {
+        font-size: 10px;
+    }
+}
+
+form label {
+    margin-top: 50px;
+    color: #4b2e83;
+    font-weight: 900;
+    font-size:  25px;
+}
+
+/* about page */
+.main-content h2{
+   font-weight: 800; 
+   color: #4b2e83;
+   display: block;
+}
+.card-body img{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+}
+
+.main-content p{
+    font-size: 17px;
+    line-height: 1.72222;
+    margin: 0 0 14.5px;
+    font-weight: normal;
+    color: #3D3D3D;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* footer style */
+footer {
+    color: white;
+    background-color: #4B2E83;
+    padding: 2rem;
+    
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.card-columns{
+    margin:10px;
+    
+}
+
+
+@media (max-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+@media (max-width: 992px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 992x) {
+    .card-columns {
+        column-count: 4;
+        column-gap: normal;
+    }
+}
+
+
+
+

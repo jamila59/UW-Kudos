@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Jamila",
+      "bio":"Space for Jamila's Bio ",
+      "posts": ["stuff", "stuff"],
+      "awards": ["stuff"]
+    },
+    {
+        "id": 2,
+        "name": "David",
+        "bio":"Space for David's Bio ",
+        "posts": ["stuff", "stuff", "stuff"],
+        "awards": []
+      },
+      {
+        "id": 3,
+        "name": "Brian",
+        "bio":"Space for Brian's Bio ",
+        "posts": [],
+        "awards": []
+      }
+
+]
